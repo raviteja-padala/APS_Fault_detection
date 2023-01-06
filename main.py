@@ -9,10 +9,13 @@ dataBase = client["neurolabDB"]
 # Collection  Name
 collection = dataBase['Products']
 
+
 # Sample data
 d = {'companyName': 'iNeuron',
      'product': 'Affordable AI',
      'courseOffered': 'Machine Learning with Deployment'}
+
+
 
 # Insert above records in the collection
 rec = collection.insert_one(d)
