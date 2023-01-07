@@ -1,0 +1,2 @@
+[ 2023-01-07 13:30:23,743 ] 8 root - INFO - Starting test_logger_and_exception
+[ 2023-01-07 13:30:23,744 ] 13 root - DEBUG - Stopping the test logger and excetion
