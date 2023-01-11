@@ -32,3 +32,11 @@ class DataIngestionConfig:
             self.test_size = 0.2
         except Exception  as e:
             raise SensorException(e,sys)     
+
+
+    def to_dict(self,)->dict:
+        try:
+            return self.__dict__
+        except Exception  as e:
+            raise SensorException(e,sys)   
+
